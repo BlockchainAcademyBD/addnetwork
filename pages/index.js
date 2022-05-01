@@ -127,14 +127,7 @@ function Home({ changeTheme, theme }) {
         <title>Add Network</title>
         <meta name="description" content="AddNetwork is a list of EVM networks, continuing the Chainlist project after their shutdown. Users can use the information to connect their wallets (such as Metamask) and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain."/>
         <link rel="icon" href="/favicon.png" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QE4RQZ5TKY"></script>
-          <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QE4RQZ5TKY');
-        </script>
+        <script src="/pages/gtag.js"></script>
       </Head>
 
       <main className={styles.main}>
