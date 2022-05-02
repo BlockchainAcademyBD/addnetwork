@@ -124,8 +124,8 @@ function Home({ changeTheme, theme }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Add Network</title>
-        <meta name="description" content="AddNetwork is a list of EVM networks, continuing the Chainlist project after their shutdown. Users can use the information to connect their wallets (such as Metamask) and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain."/>
+        <title>AddNetworks.Xyz | Add Custom Network to Metamask in Just 1 Click!</title>
+        <meta name="description" content="AddNetworks.Xyz is a list of EVM networks, Add Custom Network to Metamask in Just 1 Click! Users can use the information to connect their wallets (such as Metamask) and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain."/>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
@@ -133,9 +133,9 @@ function Home({ changeTheme, theme }) {
         <div className={theme.palette.type === 'dark' ? classes.containerDark : classes.container}>
           <div className={classes.copyContainer}>
             <div className={classes.copyCentered}>
-              <Typography variant='h1' className={classes.chainListSpacing}><span className={classes.helpingUnderline}>AddNetwork.Co</span></Typography>
+              <Typography variant='h1' className={classes.chainListSpacing}><span className={classes.helpingUnderline}>AddNetworks.Xyz</span></Typography>
               <Typography variant='h2' className={classes.helpingParagraph}>Helping users connect to EVM powered networks</Typography>
-              <Typography className={classes.subTitle}>ChainDirectory is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain.</Typography>
+              <Typography className={classes.subTitle}>AddNetworks.Xyz is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain.</Typography>
 
 
               <div className={classes.socials}>
@@ -143,7 +143,7 @@ function Home({ changeTheme, theme }) {
                   <Typography variant='body1' className={classes.sourceCode}>Join Our Facebook Group</Typography>
                 </a>
                 
-                  <p>Original project by ChainList</p>
+                  <p>EVM List Credit: ChainList</p>
                   
               </div>
             </div>
