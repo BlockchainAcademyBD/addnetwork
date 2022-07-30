@@ -127,6 +127,15 @@ function Home({ changeTheme, theme }) {
         <title>AddNetworks.Xyz | Add Custom Network to Metamask in Just 1 Click!</title>
         <meta name="description" content="AddNetworks.Xyz is a list of EVM networks, Add Custom Network to Metamask in Just 1 Click! Users can use the information to connect their wallets (such as Metamask) and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain."/>
         <link rel="icon" href="/favicon.png" />
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-13ZQWBGB62"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-13ZQWBGB62');
+</script>
       </Head>
 
       <main className={styles.main}>
@@ -224,13 +233,3 @@ export default withTheme(Home)
 //   }
 //
 // }
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-13ZQWBGB62"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-13ZQWBGB62');
-</script>
